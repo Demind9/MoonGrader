@@ -2,6 +2,22 @@ Dev notes, challanges, and ideas:
 
   Data augmentation:
     - Feature ablation
+    - Randomly take out climbs of grade 4 or 7 every batch
     - If no positional index, horizontal flip of coords and orientations
     - If no positional index, operate on two climb parts separately and add difficulty predictions together
       (could be used to identify whether model pays attention to the easiest path... like if you take out an unnecessary hold, does it make it harder?)
+
+  Valid spans:
+    - 54^(1/2) for hand-hand
+    - Hand-same foot?
+    - Hand-opp foot?
+
+  Generative eventually:
+    - Generate based off of a given grade
+    - Generate based off of a given hold(s)
+    - Different specifications such as orientations, spans, etc.
+
+  Data specifications:
+    - Crimp rating: 1-10; good, mid, bad; incut, flat, sloping (but still ordinal)
+    - Color
+    - Good color / bad color

@@ -1,4 +1,7 @@
 # MoonGrader
+
 A GNN that automatically grades Moonboard climbs.
 
-Rough draft / training loop is uploaded currently. Full project upload is in the works.
+Original GCN architecture is Batched_GNN 3 and 4.  After, I switch to a graph attention network and saw some better results.
+
+I have run into a pretty hard wall around 63% testing accuracy and am currently experimenting with ways to increase generalization of the model.

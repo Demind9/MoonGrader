@@ -3,7 +3,7 @@ Dev notes, challanges, and ideas:
   Data augmentation:
     - Feature ablation
     - Randomly take out climbs of grade 4 or 7 every batch
-    - If no positional index, horizontal flip of coords and orientations
+    - If no positional index, horizontal flip of coords and orientations (or potentially could just keep the same positional index and flip everything       else)
     - If no positional index, operate on two climb parts separately and add difficulty predictions together
       (could be used to identify whether model pays attention to the easiest path... like if you take out an unnecessary hold, does it make it harder?)
 

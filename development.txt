@@ -21,3 +21,7 @@ Dev notes, challanges, and ideas:
     - Crimp rating: 1-10; good, mid, bad; incut, flat, sloping (but still ordinal)
     - Color
     - Good color / bad color
+
+  Architectural improvements to try:
+    - Multihead attention layers instead of Linear (https://docs.pytorch.org/docs/stable/generated/torch.nn.MultiheadAttention.html)
+    - Batch norm instead of layer norm in some spots?
